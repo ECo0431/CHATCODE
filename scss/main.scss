@@ -12,7 +12,7 @@ $sixth-color: #17b85e;
     text-decoration: none;
 }
 
-.logo-texte, .logo-chat{
+.logo-texte, .logo-chat, .logo-soleil{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
@@ -20,12 +20,25 @@ $sixth-color: #17b85e;
 
 .logo-texte{
     color: $third-color;
+    font-size: 1.2em;
 }
 
 .logo-chat{
     margin-top: 20px;
     font-size: 2em;
     color: $secondary-color;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 body{

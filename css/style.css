@@ -5,7 +5,7 @@
   text-decoration: none;
 }
 
-.logo-texte, .logo-chat {
+.logo-texte, .logo-chat, .logo-soleil {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
@@ -13,12 +13,25 @@
 
 .logo-texte {
   color: #1ea1f0;
+  font-size: 1.2em;
 }
 
 .logo-chat {
   margin-top: 20px;
   font-size: 2em;
   color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 body {
